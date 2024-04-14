@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conference Registration Form</title>
+</head>
+
+<body>
+    <form>
+        Full Name:<input type="text" name="fullname"><br>
+        Email Address:<input type="text" name="email address"><br>
+        Age:<input type="number" id="age" name="age" min="18" max="99" required> <br><br>
+
+        Gender:<br>
+        <input type="radio" name="sex" value="male">Male<br>
+        <input type="radio" name="sex" value="female">Female<br><br>
+
+        Country of residence:<br>
+        <select name="country">
+        <option value="malaysia">Malysia</option>
+        <option value="singapore">Singapore</option>
+        <option value="thailand">Thailand</option>
+        <option value="indonesia">Indonesia</option>
+        <option value="philipines">Philipine</option>
+        <option value="vietnam">Vietnam</option>
+        </select><br><br>
+
+        Areas of interest:<br>
+        <input type="checkbox" name="interest" value="software.dev">Software Development<br>
+        <input type="checkbox" name="interest" value="data.sc">Data Science<br>
+        <input type="checkbox" name="interest" value="cyber.sec">Cybersecurity<br>
+        <input type="checkbox" name="interest" value="ai">Artificial Intelligence<br><br>
+
+        Experience Level:<br>
+        <input type="radio" name="experience"  value="beginner">Beginner<br>
+        <input type="radio" name="experience" value="intermediae">Intermediate<br>
+        <input type="radio" name="experience" value="advance">Advance<br><br>
+
+        Comments or Questions:<br><br>
+        <textarea id="comments" name="comments" rows="10" cols="50">
+            Any comments or questions?
+        </textarea><br><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+   
+    </form>
+</body>
+
+</html>
